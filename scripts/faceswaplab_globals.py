@@ -10,7 +10,7 @@ FACE_PARSER_DIR = os.path.abspath(os.path.join(MODELS_DIR, "parser"))
 # Defining the absolute path for the 'faces' directory inside 'MODELS_DIR'
 FACES_DIR = os.path.abspath(os.path.join(MODELS_DIR, "faces"))
 
-# Constructing the path for 'references' directory inside the 'extensions' and 'sd-webui-faceswaplab' directories, based on the base directory of scripts
+# Constructing the path for 'references' directory inside the 'extensions' and 'sd-webui-forge-faceswaplab' directories, based on the base directory of scripts
 REFERENCE_PATH = os.path.join(
     scripts.basedir(), "extensions", "sd-webui-forge-faceswaplab", "references"
 )

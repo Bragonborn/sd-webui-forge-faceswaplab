@@ -67,7 +67,7 @@ def build_face_checkpoint_and_save(
 
         blended_face: Optional[Face] = swapper.blend_faces(faces, gender=gender)
         preview_path = os.path.join(
-            scripts.basedir(), "extensions", "sd-webui-faceswaplab", "references"
+            scripts.basedir(), "extensions", "sd-webui-forge-faceswaplab", "references"
         )
 
         reference_preview_img: PILImage

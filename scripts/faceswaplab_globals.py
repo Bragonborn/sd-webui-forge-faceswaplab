@@ -17,7 +17,7 @@ REFERENCE_PATH = os.path.join(
 
 # Defining the version flag for the application
 VERSION_FLAG: str = "v1.2.7"
-# Defining the path for 'sd-webui-faceswaplab' inside the 'extensions' directory
+# Defining the path for 'sd-webui-forge-faceswaplab' inside the 'extensions' directory
 EXTENSION_PATH = os.path.join("extensions", "sd-webui-forge-faceswaplab")
 
 # Defining the expected SHA1 hash value for 'INSWAPPER'

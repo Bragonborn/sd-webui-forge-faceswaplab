@@ -55,7 +55,7 @@ from scripts.faceswaplab_postprocessing.postprocessing_options import (
 )
 from scripts.faceswaplab_ui.faceswaplab_unit_settings import FaceSwapUnitSettings
 
-EXTENSION_PATH = os.path.join("extensions", "sd-webui-faceswaplab")
+EXTENSION_PATH = os.path.join("extensions", "sd-webui-forge-faceswaplab")
 
 
 # Register the tab, done here to prevent it from being added twice
